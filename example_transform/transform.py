@@ -57,7 +57,6 @@ from PIL import Image
 #                                                                                              #
 ################################################################################################
 
-
 def transform_step(step: Dict[str, Any]) -> Dict[str, Any]:
     """Maps step from source dataset to target dataset config.
        Input is dict of numpy arrays."""
@@ -68,7 +67,7 @@ def transform_step(step: Dict[str, Any]) -> Dict[str, Any]:
             'image': np.array(img),
         },
         'action': np.concatenate(
-            [step['action'][:3], step['action'][5:8], step['action'][-2:]]),
+            [step['action'][:3] / 800, np.radians(step['action'][3:6]), step['action'][-2:]]),
     }
 
     # copy over all other fields unchanged
