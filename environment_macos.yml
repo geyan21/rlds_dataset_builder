@@ -2,70 +2,70 @@ name: rlds_env
 channels:
   - defaults
 dependencies:
-  - _tflow_select=2.2.0=eigen
-  - abseil-cpp=20211102.0=he9d5cce_0
-  - aiosignal=1.2.0=pyhd3eb1b0_0
-  - appdirs=1.4.4=pyhd3eb1b0_0
-  - astunparse=1.6.3=py_0
-  - blas=1.0=mkl
-  - bzip2=1.0.8=h1de35cc_0
-  - c-ares=1.19.0=h6c40b1e_0
-  - ca-certificates=2023.05.30=hecd8cb5_0
-  - cachetools=4.2.2=pyhd3eb1b0_0
-  - charset-normalizer=2.0.4=pyhd3eb1b0_0
-  - flatbuffers=2.0.0=h23ab428_0
-  - gast=0.4.0=pyhd3eb1b0_0
-  - giflib=5.2.1=h6c40b1e_3
-  - google-auth=2.6.0=pyhd3eb1b0_0
-  - google-pasta=0.2.0=pyhd3eb1b0_0
-  - grpc-cpp=1.48.2=h3afe56f_0
-  - hdf5=1.10.6=h10fe05b_1
-  - icu=68.1=h23ab428_0
-  - intel-openmp=2023.1.0=ha357a0b_43547
-  - jpeg=9e=h6c40b1e_1
-  - keras-preprocessing=1.1.2=pyhd3eb1b0_0
-  - krb5=1.20.1=hdba6334_1
-  - libcurl=8.1.1=ha585b31_1
-  - libcxx=14.0.6=h9765a3e_0
-  - libedit=3.1.20221030=h6c40b1e_0
-  - libev=4.33=h9ed2024_1
-  - libffi=3.4.4=hecd8cb5_0
-  - libgfortran=5.0.0=11_3_0_hecd8cb5_28
-  - libgfortran5=11.3.0=h9dfd629_28
-  - libnghttp2=1.52.0=h1c88b7d_1
-  - libpng=1.6.39=h6c40b1e_0
-  - libprotobuf=3.20.3=hfff2838_0
-  - libssh2=1.10.0=hdb2fb19_2
-  - llvm-openmp=14.0.6=h0dcd299_0
-  - mkl=2023.1.0=h59209a4_43558
-  - mkl_fft=1.3.6=py311hdb55bb0_1
-  - mkl_random=1.2.2=py311hdb55bb0_1
-  - ncurses=6.4=hcec6c5f_0
-  - numpy-base=1.23.5=py311h53bf9ac_1
-  - openssl=1.1.1u=hca72f7f_0
-  - opt_einsum=3.3.0=pyhd3eb1b0_1
-  - pooch=1.4.0=pyhd3eb1b0_0
-  - pyasn1=0.4.8=pyhd3eb1b0_0
-  - pyasn1-modules=0.2.8=py_0
-  - pycparser=2.21=pyhd3eb1b0_0
-  - python=3.11.4=h1fd4e5f_0
-  - python-flatbuffers=2.0=pyhd3eb1b0_0
-  - re2=2022.04.01=he9d5cce_0
-  - readline=8.2=hca72f7f_0
-  - requests-oauthlib=1.3.0=py_0
-  - rsa=4.7.2=pyhd3eb1b0_1
-  - six=1.16.0=pyhd3eb1b0_1
-  - snappy=1.1.9=he9d5cce_0
-  - sqlite=3.41.2=h6c40b1e_0
-  - tbb=2021.8.0=ha357a0b_0
-  - tensorboard-plugin-wit=1.6.0=py_0
-  - tensorflow-base=2.12.0=eigen_py311hbf87084_0
-  - tk=8.6.12=h5d9f67b_0
-  - typing_extensions=4.6.3=py311hecd8cb5_0
-  - tzdata=2023c=h04d1e81_0
-  - wheel=0.35.1=pyhd3eb1b0_0
-  - xz=5.4.2=h6c40b1e_0
-  - zlib=1.2.13=h4dc903c_0
+  - _tflow_select=2.2.0
+  - abseil-cpp=20211102.0
+  - aiosignal=1.2.0
+  - appdirs=1.4.4
+  - astunparse=1.6.3
+  - blas=1.0
+  - bzip2=1.0.8
+  - c-ares=1.19.0
+  - ca-certificates=2023.05.30
+  - cachetools=4.2.2
+  - charset-normalizer=2.0.4
+  - flatbuffers=2.0.0
+  - gast=0.4.0
+  - giflib=5.2.1
+  - google-auth=2.6.0
+  - google-pasta=0.2.0
+  - grpc-cpp=1.48.2
+  - hdf5
+  - icu=68.1
+  # - intel-openmp
+  - jpeg=9e
+  - keras-preprocessing=1.1.2
+  - krb5=1.20.1
+  - libcurl=8.1.1
+  - libcxx=14.0.6
+  - libedit=3.1.20221030
+  - libev=4.33
+  - libffi=3.4.4
+  - libgfortran=5.0.0
+  - libgfortran5=11.3.0
+  - libnghttp2=1.52.0
+  - libpng=1.6.39
+  - libprotobuf=3.20.3
+  - libssh2=1.10.0
+  - llvm-openmp=14.0.6
+  # - mkl
+  # - mkl_fft
+  # - mkl_random
+  - ncurses=6.4
+  - numpy-base=1.23.5
+  - openssl=1.1.1u
+  - opt_einsum=3.3.0
+  - pooch=1.4.0
+  - pyasn1=0.4.8
+  - pyasn1-modules=0.2.8
+  - pycparser=2.21
+  - python=3.11.4
+  - python-flatbuffers=2.0
+  - re2=2022.04.01
+  - readline=8.2
+  - requests-oauthlib=1.3.0
+  - rsa=4.7.2
+  - six=1.16.0
+  - snappy=1.1.9
+  - sqlite=3.41.2
+  - tbb=2021.8.0
+  - tensorboard-plugin-wit=1.6.0
+  - tensorflow-base=2.12.0
+  - tk=8.6.12
+  - typing_extensions=4.6.3
+  - tzdata=2023c
+  - wheel=0.35.1
+  - xz=5.4.2
+  - zlib=1.2.13
   - pip:
     - absl-py==1.4.0
     - aiohttp==3.8.3
@@ -108,9 +108,9 @@ dependencies:
     - markdown==3.4.1
     - markupsafe==2.1.1
     - matplotlib==3.7.2
-    - mkl-fft==1.3.6
-    - mkl-random==1.2.2
-    - mkl-service==2.4.0
+    # - mkl-fft==1.3.6
+    # - mkl-random==1.2.2
+    # - mkl-service==2.4.0
     - multidict==6.0.2
     - numpy==1.23.5
     - oauthlib==3.2.2
