@@ -3,6 +3,20 @@
 The **ucsd_kitchens** dataset is a real-world dataset consisting of human-collected interactions in three distinct kitchen environments. Each kitchen scene contains five different tasks, and each task is further divided into ten demonstrations, resulting in a total of 150 demonstrations. The dataset offers a comprehensive set of real-world robotic interactions, involving natural language instructions and complex manipulations with kitchen objects.
 
 
+----
+<p align="center">
+    <span style="font-weight: bold">Place the teapot on the stove</span>
+    <br/>
+    <img src="example_figure/teapot.png" width="200%" />
+</p>
+
+----
+<p align="center">
+    <span style="font-weight: bold">Turn the faucet</span>
+    <br/>
+    <img src="example_figure/faucet.png" width="200%" />
+</p>
+
 ### Dataset Details
 
 - **Version:** 1.0.0
